@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculation Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="homeScreen">
+    <h1 id="gameTitle">🧮 गणना खेल | Calculation Game</h1>
+    <button onclick="startGame()">▶️ शुरू करें / Start</button>
+    <button onclick="toggleLang()">🌐 भाषा / Language</button>
+    <button onclick="toggleSound()">🔊 ध्वनि / Sound</button>
+    <p id="howToPlay">उत्तर चुनें और समय समाप्त होने से पहले अधिकतम अंक प्राप्त करें।</p>
+  </div>
+  <div id="gameScreen" style="display:none;">
+    <div id="questionArea"></div>
+    <div id="optionsArea"></div>
+    <div id="timer">⏱️ 30</div>
+    <div id="score">🏆 0</div>
+  </div>
+  <div id="gameOverScreen" style="display:none;">
+    <h2 id="finalScore">आपका स्कोर: 0</h2>
+    <button onclick="startGame()">🔁 फिर से खेलें / Play Again</button>
+    <button onclick="goHome()">🏠 होम / Home</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

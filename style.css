@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 12px;
+  background: #ff9800;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+#questionArea {
+  font-size: 24px;
+  margin: 20px;
+}
+#optionsArea button {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  background: #03a9f4;
+}
